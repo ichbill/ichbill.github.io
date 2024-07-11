@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+} */
+
+.news-container {
+    height: 200px; /* Set a fixed height */
+    overflow-y: scroll; /* Enables vertical scrolling */
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+
+.news-item {
+    display: flex;
+    align-items: baseline; /* Keeps items aligned at their baseline */
+    margin-bottom: 10px;
+}
+
+.date {
+    font-weight: bold;
+    margin-right: 10px;
+    white-space: nowrap; /* Prevents the date from wrapping */
+}
+
+
+
+.publication {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.publication img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.publication-info h3 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.apple-style-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.apple-style-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.bio-content {
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.bio-photo {
+    float: right;
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text {
+    text-align: left;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px auto; /* Centering sections */
+    border-radius: 8px;
+    width: 80%; /* Control the width */
+    max-width: 800px; /* Maximum width */
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    section {
+        width: 95%; /* More width for smaller screens */
+    }
+}
+
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
