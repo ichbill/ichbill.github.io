@@ -108,7 +108,7 @@ footer {
 .bio-photo {
     float: right;
     margin-left: 20px;
-    width: 150px;
+    width: 210px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -124,7 +124,7 @@ section {
     margin: 10px auto; /* Centering sections */
     border-radius: 8px;
     width: 80%; /* Control the width */
-    max-width: 800px; /* Maximum width */
+    max-width: 900px; /* Maximum width */
     box-sizing: border-box;
 }
 
