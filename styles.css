@@ -87,6 +87,38 @@ nav ul li a {
 
 
 
+.experience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience .exp-logo {
+    min-width: 150px;
+    max-width: 150px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience .exp-logo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.experience-info h4 {
+    margin-top: 0;
+}
+
+.publications-container {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
 .publication {
     display: flex;
     align-items: center;
